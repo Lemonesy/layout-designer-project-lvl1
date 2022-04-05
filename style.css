@@ -105,7 +105,7 @@ position: absolute;
 .text-wd540{
     max-width: 540px;
 }
-.mr30{
+.pd-lr15{
     padding: 0px 15px;
 }
 .button {
@@ -120,6 +120,13 @@ position: absolute;
         text-decoration: none;
         text-transform: uppercase;
         display: inline-block;
-        /* transition: background-color 0.3s ease 0s; */
-    
+}
+.video_container{
+    text-align: center;
+}
+.pb15{
+    padding-bottom: 15px;
+}
+.video{
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
