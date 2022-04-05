@@ -1,0 +1,125 @@
+:root {
+    --white: #fff;
+    --translucentwhite: #d7ccc0;
+    --light: #f5f4f0;
+    --main: #fe8a02;
+    --maindark: #42413c;
+    --dark: #2a2626;
+    --translucentdark: #908d8b;
+    --brown: #b09a81;
+    --blue: #1085c5;
+}
+
+body, header {
+    font: 16px/1.6em 'Open Sans', sans-serif;
+    color: var(--dark);
+    font-weight: 400;
+
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Neucha';
+    line-height: 1.2em;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+p, h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    flex: 1 1 auto;
+    /* z-index: -10; */
+}
+[class*="_container"]{
+    /* display: flex;
+    flex-direction: column; */
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* overflow: hidden; */
+}
+
+.background::before {
+    content: "";
+position: absolute;
+    background-image: url(image/background.png);
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+}
+.light-bgr{
+    /* position: absolute; */
+    z-index: 100;
+    background-color: var(--light);
+    width: 100%;
+    height: 100%;
+}
+.header_container{
+    position: relative;
+}
+.header-top {
+    display: flex;
+}
+.header-image{
+    position: absolute;
+    height: 525px;
+    top: 55px;
+    right: -270px;
+    width: 100%;
+}
+.orange-text {
+    color: #FE8A02;
+}
+.header-bottom{
+    display: flex;
+    margin-top: 185px;
+    margin-left: -15px;
+    margin-right: -15px;
+  
+
+}
+.text-wd540{
+    max-width: 540px;
+}
+.mr30{
+    padding: 0px 15px;
+}
+.button {
+        margin-top: 40px;
+        padding: 12px 24px;
+        border-width: 0;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 160%;
+        background-color: var(--main);
+        color: var(--white);
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        /* transition: background-color 0.3s ease 0s; */
+    
+}
