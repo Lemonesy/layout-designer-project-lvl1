@@ -123,10 +123,42 @@ position: absolute;
 }
 .video_container{
     text-align: center;
+    margin-bottom: -200px;
 }
 .pb15{
     padding-bottom: 15px;
 }
 .video{
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+#navigation{
+    padding-top: 100px;
+    background-color: #42413C;
+    width: 100%;
+    height: 100%;
+}
+.column{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.fz52{
+    font-size: 52px;
+    max-width: 350px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.number{
+    font-size: 64px;
+    padding-bottom: 40px;
+    font-family: Neucha;
+line-height: 1;
+}
+.column_item{
+    max-width: 350px;
+    background-color: #F5F4F0;
+    padding-left: 12px;
+    padding-right: 12px;
 }
