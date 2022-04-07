@@ -125,12 +125,12 @@ position: absolute;
 .video_container{
     text-align: center;
     margin-bottom: -200px;
-    border-width:0;
 }
 .video{
     width: 919px;
     height: 569px;
-    
+    border-width:0;
+
 }
 .pb15{
     padding-bottom: 30px;
