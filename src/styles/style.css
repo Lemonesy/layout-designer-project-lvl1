@@ -1,5 +1,5 @@
 :root {
-    --white:    #fff;
+    --white: #fff;
     --translucentwhite: #d7ccc0;
     --light: #f5f4f0;
     --main: #fe8a02;
@@ -7,7 +7,7 @@
     --dark: #2a2626;
     --translucentdark: #908d8b;
     --brown: #b09a81;
-    --blue: #1085c5;    
+    --blue: #1085c5;
 }
 
 body,
@@ -41,12 +41,12 @@ h3 {
     font-size: 34px;
 }
 
-p, 
-h1, 
-h2, 
-h3, 
+p,
+h1,
+h2,
+h3,
 h4 {
-     margin: 0;
+    margin: 0;
 }
 
 .wrapper {
@@ -157,7 +157,7 @@ h4 {
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
     width: 919px;
     height: 569px;
-    border-width:0;
+    border-width: 0;
 }
 
 #navigation {
@@ -170,7 +170,7 @@ h4 {
 .column {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -185,7 +185,7 @@ h4 {
 }
 
 .number {
-    font: 64px/1 Neucha ;
+    font: 64px/1 Neucha;
     padding-left: 24px;
     padding-top: 24px;
     margin-bottom: 32px;
@@ -323,61 +323,62 @@ h4 {
     align-items: flex-start;
     justify-content: flex-start;
     margin-left: 30px;
-  }
+}
 
-  .footer-title {
+.footer-title {
     padding: 20px 92px 0 0;
-  }
+}
 
-  .input-field {
+.input-field {
     display: flex;
     margin: 8px 0 4px;
-  }
+}
 
-  .input-for-mail {
+.input-for-mail {
     width: 415px;
     height: 50px;
     border: none;
     /* padding: 15px; */
-  }
-  .input-for-mail::placeholder {
+}
+
+.input-for-mail::placeholder {
     color: #757575;
     font-size: 13px;
     line-height: 1.6em;
     letter-spacing: 1;
     opacity: 0.2;
-  }
+}
 
-  .label-for-mail {
+.label-for-mail {
     font-size: 18px;
     line-height: 160%;
-  }
+}
 
-  .service-rules {
+.service-rules {
     font-size: 12px;
     line-height: 160%;
-  }
+}
 
-  .copyright {
+.copyright {
     margin-top: 60px;
     font-size: 14px;
     text-align: center;
-  }
+}
 
-  .copyright-text {
+.copyright-text {
     margin-top: 14px;
-  }
+}
 
-  .send-info {
+.send-info {
     position: relative;
-    background-color:   var(--main);
+    background-color: var(--main);
     width: 70px;
     height: 50px;
     border: none;
     padding: 0;
-  }
+}
 
-  .send-info::before {
+.send-info::before {
     position: absolute;
     top: 0;
     right: 0;
@@ -391,8 +392,8 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     content: "";
-  }
+}
 
-  input[type="email" i] {
+input[type="email"i] {
     padding: 0;
-  }
+}
