@@ -11,6 +11,7 @@
 }
 
 body, header {
+    
     font: 16px/1.6em 'Open Sans', sans-serif;
     color: var(--dark);
     font-weight: 400;
@@ -19,6 +20,7 @@ body, header {
 
 body {
     margin: 0;
+    width: 1440px;
 }
 
 h1, h2, h3 {
