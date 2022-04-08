@@ -186,7 +186,7 @@ h4 {
 }
 
 .number {
-  font: 64px/1 "Neucha";
+  font: 64px/1 'Neucha', cursive;
   padding-left: 24px;
   padding-top: 24px;
   margin-bottom: 32px;
@@ -225,7 +225,7 @@ h4 {
 }
 
 .first-name {
-  font: 24px "Neucha";
+  font: 24px 'Neucha', cursive;
 }
 
 .black-name {
@@ -237,7 +237,7 @@ h4 {
 }
 
 .title-third {
-  font: 34px/1.2em "Neucha";
+  font: 34px/1.2em 'Neucha', cursive;
   margin-top: 30px;
 }
 
@@ -257,7 +257,7 @@ h4 {
 }
 
 .white-text-color {
-  color: #fff;  
+  color: #fff;
 }
 
 .white-text-inline {
@@ -337,6 +337,8 @@ h4 {
   width: 415px;
   height: 50px;
   border: none;
+  padding: 0;
+
 }
 
 .input-for-mail::placeholder {
@@ -390,8 +392,4 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
   content: "";
-}
-
-input[type='email'i] {
-  padding: 0;
 }
