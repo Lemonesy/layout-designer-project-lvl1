@@ -186,7 +186,7 @@ h4 {
 }
 
 .number {
-  font: 64px/1 "Neucha", cursive;
+  font: 64px/1 Neucha, cursive;
   padding-left: 24px;
   padding-top: 24px;
   margin-bottom: 32px;
@@ -225,7 +225,7 @@ h4 {
 }
 
 .first-name {
-  font: 24px 'Neucha', cursive;
+  font: 24px Neucha, cursive;
 }
 
 .black-name {
