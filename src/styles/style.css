@@ -225,7 +225,7 @@ h4 {
 }
 
 .first-name {
-  font: 24px "Neucha", cursive;
+  font: 24px 'Neucha', cursive;
 }
 
 .black-name {
@@ -237,7 +237,7 @@ h4 {
 }
 
 .title-third {
-  font: 34px/1.2em "Neucha", cursive;
+  font: 34px/1.2em Neucha, cursive;
   margin-top: 30px;
 }
 
